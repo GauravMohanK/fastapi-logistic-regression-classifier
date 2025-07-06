@@ -5,12 +5,14 @@ A simple machine learning API built using **FastAPI** to serve a trained logisti
 ---
 
 # 🛠️ Tech Stack
+<pre lang="no-highlight">
 Python
 FastAPI
 Pandas
 Scikit-learn
 Uvicorn
-
+ </pre>
+ 
 ## 📁 Project Structure
 
 <pre lang="no-highlight"> 
