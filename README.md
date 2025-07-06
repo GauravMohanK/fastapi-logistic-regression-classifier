@@ -4,26 +4,26 @@ A simple machine learning API built using **FastAPI** to serve a trained logisti
 
 ---
 
+# 🛠️ Tech Stack
+Python
+FastAPI
+Pandas
+Scikit-learn
+Uvicorn
+
 ## 📁 Project Structure
 
 <pre lang="no-highlight"> 
 ├── app/
- └── main.py # FastAPI application (routes & logic)
- └── schema.py # Pydantic models (if needed for validation)
+ └── main.py # FastAPI application
+ └── schema.py # Pydantic models 
 ├── model/
- └──logreg_model.pkl # Trained logistic regression model
- └── model_train.py # Script to train & save the model
-├── api.log # Optional log file
-├── requirements.txt # Python dependencies
+ └──logreg_model.pkl 
+ └── model_train.py 
+├── api.log 
+├── requirements.txt 
  </pre>
 
 
-  ├── pipeline/ # Core pipeline logic 
-  └── extract_mysql_full.py  
-  └── extract_incremental.py 
-  │ 
-  ├── pipeline.conf # (Private – Git ignored) 
-  ├── .gitignore 
-  ├── requirements.txt  
 
   
